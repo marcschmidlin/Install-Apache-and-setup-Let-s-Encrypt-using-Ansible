@@ -1,0 +1,7 @@
+[all:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+[webserver]
+automation1.nikio.io ansible_user=root 
+automation2.nikio.io ansible_user=root 
+automation3.nikio.io ansible_user=root 
+automation4.nikio.io ansible_user=root 
